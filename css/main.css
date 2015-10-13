@@ -1,0 +1,53 @@
+body{
+  background:grey;
+}
+
+div{
+  height:520px;
+}
+
+p{
+  font-size:20px;
+  color:white;
+}
+
+@media (max-width:960px) {
+  div{
+    background:teal;
+  }
+  
+  .name{
+  display:block
+    
+  }
+}
+
+@media (max-width:860px) {
+  div{
+   background:brown;
+  }
+}
+
+@media (max-width:760px) {
+  div{
+   background:darkorange;
+  }
+}
+
+@media (max-width:660px) {
+  div{
+   background:limegreen;
+  }
+}
+
+@media (max-width:560px) {
+  div{
+   background:mediumvioletred;
+  }
+}
+
+@media (max-width:460px) {
+  div{
+   background:coral;
+  }
+}
