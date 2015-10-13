@@ -11,14 +11,17 @@ p{
   color:white;
 }
 
+.two, .three, .four, .five, .six {
+  display:none;
+}
+
 @media (max-width:960px) {
   div{
     background:teal;
   }
   
-  .name{
+  .two{
   display:block
-    
   }
 }
 
@@ -26,11 +29,17 @@ p{
   div{
    background:brown;
   }
+  .three{
+  display:block
+  }
 }
 
 @media (max-width:760px) {
   div{
    background:darkorange;
+  }
+  .four{
+  display:block
   }
 }
 
@@ -38,11 +47,17 @@ p{
   div{
    background:limegreen;
   }
+  .five{
+  display:block
+  }
 }
 
 @media (max-width:560px) {
   div{
    background:mediumvioletred;
+  }
+  .six{
+  display:block
   }
 }
 
